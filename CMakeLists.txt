@@ -1,0 +1,22 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+
+PROJECT(Commander-SFZ
+	VERSION 2.0
+	DESCRIPTION "Program to control performances in musical MIDI instruments"
+	LANGUAGES C CXX)
+
+FIND_PACKAGE(Qt5Widgets REQUIRED)
+
+ADD_EXECUTABLE(Commander-SFZ
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp"
+	"${CMAKE_CURRENT_SOURCE_DIR}/src/instrument/instrument.cpp")
+
+TARGET_INCLUDE_DIRECTORIES(Commander-SFZ
+	PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+# Link Qt5 libraries to your project
+TARGET_LINK_LIBRARIES(Commander-SFZ Qt5::Widgets)
+
+SET_TARGET_PROPERTIES(Commander-SFZ PROPERTIES
+	RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin"
+	OUTPUT_NAME commander2)

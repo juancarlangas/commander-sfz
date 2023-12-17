@@ -1,0 +1,3 @@
+/home/juancarlangas/Programming/commander-sfz/Debug/CMakeFiles/Commander-SFZ.dir
+/home/juancarlangas/Programming/commander-sfz/Debug/CMakeFiles/edit_cache.dir
+/home/juancarlangas/Programming/commander-sfz/Debug/CMakeFiles/rebuild_cache.dir

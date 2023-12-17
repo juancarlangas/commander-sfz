@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic "CMakeFiles/Commander-SFZ.dir/src/main.cpp.o" "CMakeFiles/Commander-SFZ.dir/src/instrument/instrument.cpp.o" -o /home/juancarlangas/Programming/commander-sfz/bin/commander2  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.10 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.10 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.10 
